@@ -1,0 +1,9 @@
+Load and audit FC27 and social media datasets
+
+- Downloaded FC27 player ratings and social media/dopamine datasets from Kaggle
+- Loaded both datasets into pandas DataFrames and inspected columns
+- Identified target columns: overall_rating/position (FC27), productivity_self_rating (social media)
+- Classified FC27 as regression (overall_rating) or classification (position)
+- Classified social media dataset as regression (productivity_self_rating)
+- Checked for missing values, duplicates, and overall data completeness (6.33% missing in FC27)
+- Handled missing values via imputation (median for numeric, placeholder for categorical)
